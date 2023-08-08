@@ -1,0 +1,73 @@
+/*Navigation*/
+#navbar{
+    flex-direction: column;
+}
+#navbar::before{
+    opacity: 0.8;
+}
+#navbar ul li{
+    
+    padding: 15px 7px;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    margin: 10px 3px;
+    padding-bottom: 8px;
+}
+#home{
+   height: 364px;
+   padding: 3px 68px;
+}
+#home::before{
+   height: 530px;
+   
+}
+#home p{
+    font-size: 13px;
+}
+/* Services */
+#services{
+   flex-direction: column;
+}
+#services .box{
+   
+}
+
+/* Explore */
+#explore{
+    flex-wrap: wrap;
+}
+.explore-item button {
+    border-radius: 10px;
+    width: 159px;
+    height: 69px;
+}
+.explore-item button:hover {
+    border-radius: 10px;
+    width: 159px;
+    height: 69px;
+    font-size: 20px;
+}
+.explore-item button a {
+    font-size: 20px;
+}
+.explore-item button a:hover {
+    border-radius: 10px;
+    width: 159px;
+    height: 69px;
+    font-size: 20px;
+}
+/* contact */
+#contact-box form{
+    width: 80%;
+}
+
+/* footer */
+/* utility */
+.h-primary{
+    font-size: 26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
